@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(to right,#ad0000,#0300cc ,#ffffff);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+nav{
+    background:#222;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+}
+
+nav ul li{
+    margin:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#ffcc00;
+}
+
+#hero{
+    background:url(Kosidba-na-Rajcuserbiaa.jpg)
+    center/cover;
+    height:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:rgb(255, 0, 0);
+    text-shadow:2px 2px 5px black;
+}
+
+#hero h2{
+    font-size:40px;
+    text-align: center;
+}
+
+section{
+    padding:40px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#d30000;
+    justify-content: center;
+}
+
+.card{
+    background:white;
+    margin:15px auto;
+    padding:20px;
+    max-width:800px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.card h3{
+    color:#cc0000;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+#manifestacije ul{
+    max-width:600px;
+    margin:auto;
+}
+
+#manifestacije li{
+    background:white;
+    padding:15px;
+    margin:10px 0;
+    border-left:5px solid #cc0000;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+#hero-guca{
+    background: url(ff2f22af-d5c7-4233-b101-2ddc372a01b8-guca.jpg)
+    center/cover;
+    height:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-shadow:2px 2px 5px black;
+}
+
+#hero-guca h2{
+    font-size:40px;
+    color: #ffffff;
+}
+
+#zanimljivosti ul{
+    max-width:700px;
+    margin:auto;
+}
+
+#zanimljivosti li{
+    background:white;
+    padding:15px;
+    margin:10px 0;
+    border-left:5px solid #cc0000;
+}
